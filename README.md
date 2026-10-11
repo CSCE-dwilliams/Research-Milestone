@@ -1,56 +1,53 @@
-# Welcome to your Expo app 👋
+# BarCast Research Milestone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Sample App
 
-## Get started
+This repository contains my individual sample app for the BarCast project. It is an interactive React Native app called **Bar Vibe Checker**.
 
-1. Install dependencies
+A user can choose a nightlife vibe, select a real Five Points, Columbia SC venue, and add that venue to a night-out plan. The app also includes a separate mock venue-manager flow, where a manager enters information for their venue.
+
+## Technology Chosen
+
+I chose **React Native with Expo**, **TypeScript**, and **npm**.
+
+- **React Native** lets developers build mobile-style user interfaces using React components.
+- **Expo** makes it easier to create, run, and test a React Native project in a browser during development.
+- **TypeScript** adds type checking to JavaScript, which helps catch mistakes in code.
+- **npm** is the package manager used to install and run the project’s dependencies.
+
+## Technology Research
+
+I chose React Native with Expo because it is easy to access and test during development. Expo allowed me to quickly create and run my app in a web browser while learning how React Native works.
+
+React Native is also maintainable because the app is organized into reusable components and styles. This makes it easier to edit features, update the design, and make changes as the BarCast project develops.
+
+React Native also fits well with a team using React because the same basic ideas, such as components, state, and user interaction, are used. One limitation is that some advanced phone features may need extra configuration later. However, Expo is a good choice for the BarCast research sample because it makes setup and testing easier.
+
+## Libraries and Tools Used
+
+- React
+- React Native
+- Expo
+- TypeScript
+- npm
+- Visual Studio Code
+- Git and GitHub
+
+## Package Manager
+
+I used npm as the package manager.
+
+- `npm install` downloads the packages listed in `package.json`.
+- `npm run web` starts the Expo app in a web browser.
+- `package-lock.json` records the specific package versions so another developer can install the same versions.
+
+## How to Run the App
+
+1. Clone this repository.
+2. Open the `bar-vibe-checker` folder in Visual Studio Code.
+3. Run:
 
    ```bash
    npm install
+   npm run web
    ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
